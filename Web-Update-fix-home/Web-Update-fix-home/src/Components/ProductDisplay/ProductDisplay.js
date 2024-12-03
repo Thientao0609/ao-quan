@@ -3,8 +3,7 @@ import './ProductDisplay.css';
 import star_icon from '../Assets/star_icon.png';
 import star_dull_icon from '../Assets/star_dull_icon.png';
 import { ShopContext } from '../../Contexts/ShopContext';
-import { useNavigate } from 'react-router-dom'; // Dùng để điều hướng 
-import PoloShirt from '../Polos/Polos';
+import { useNavigate } from 'react-router-dom'; // Dùng để điều hướng
 
 const ProductDisplay = (props) => {
     const { product } = props; // Sản phẩm được truyền từ props

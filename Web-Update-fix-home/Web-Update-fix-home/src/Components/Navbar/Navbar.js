@@ -152,9 +152,9 @@ const Navbar = () => {
                     </Link>
                     <ul className="submenu">
                       <li><Link to="/jacket" className="nav-express">Áo Khoác</Link></li>
-                      <li><Link to="/polos" className="nav-express">Áo Polo</Link></li>
-                      <li><Link to="/balo" className="nav-express">Áo Ba Lỗ</Link></li>
-                      <li><Link to="/Hoodie" className="nav-express">Áo Hoodie</Link></li>
+                      <li><Link to="/man/polos" className="nav-express">Áo Polo</Link></li>
+                      <li><Link to="/man/tanktops" className="nav-express">Áo Ba Lỗ</Link></li>
+                      <li><Link to="/man/hoodies" className="nav-express">Áo Hoodie</Link></li>
                     </ul>
                   </li>
                   <li className="menu-li hasChild tp_menu_item">

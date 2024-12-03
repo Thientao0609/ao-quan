@@ -54,10 +54,6 @@ import men_banner from './Components/Assets/banner_mens.png';
 import woman_banner from './Components/Assets/banner_women.png';
 import kid_banner from './Components/Assets/banner_kids.png';
 import Jacket from './Components/Jacket/Jacket';
-import PoloShirt from './Components/Polos/Polos';
-import Backpack from './Components/balo/packbacks';
-import Hoodie from './Components/Hoodie/Hoodie';
-
 
 function App() {
   return (
@@ -76,10 +72,6 @@ function App() {
           <Route path='/login' element={<LoginSignup />} />
 
           <Route path='/jacket' element={<Jacket></Jacket>} />
-          <Route path='Polos' element={<PoloShirt></PoloShirt>}/>
-          <Route path='balo' element={<Backpack></Backpack>}/>
-          <Route path='Hoodie' element={<Hoodie></Hoodie>}/>
-
           <Route path='/checkout' element={<Checkout />} /> {/* Thêm đường dẫn cho trang thanh toán */}
         </Routes>
         <Footer />
